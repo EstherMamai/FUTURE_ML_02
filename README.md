@@ -52,12 +52,17 @@ Customer churn is a critical issue for telecom companies. This project aims to:
 FUTURE_ML_02/
 ├── data/
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-├── notebooks/
-│   ├── churn_prediction_complete.ipynb
-│   ├── random_forest_churn_model.pkl (generated)
+├── models/
+│   ├── logistic_regression_churn_model.pkl (generated)
 │   ├── scaler.pkl (generated)
 │   ├── feature_names.pkl (generated)
-│   └── model_metrics.csv (generated)
+│   ├── model_metrics.csv (generated)
+│   └── README.md
+├── notebooks/
+│   ├── churn_prediction_complete.ipynb
+│   └── churn_insights_report.ipynb
+├── Reports/
+├── .gitignore
 ├── requirements.md
 └── README.md
 ```
